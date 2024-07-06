@@ -1,0 +1,7 @@
+package test_somethig_package;
+
+public class String_practice {
+	public static void main(String[] args) {
+		
+	}
+}

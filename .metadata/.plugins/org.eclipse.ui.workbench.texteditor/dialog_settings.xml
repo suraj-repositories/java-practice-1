@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="MyNode"/>
+		<list key="findhistory">
+			<item value="Node"/>
+			<item value="Graph3"/>
+			<item value="Node33"/>
+			<item value="package Data_Structures_BroCodes;"/>
+			<item value="A"/>
+			<item value="xWins"/>
+			<item value="X"/>
+			<item value="Cat"/>
+			<item value="Dog"/>
+			<item value="Animal"/>
+			<item value="Animal1"/>
+		</list>
+		<list key="replacehistory">
+			<item value="MyNode"/>
+			<item value="Graph4"/>
+			<item value="Node4"/>
+			<item value="B"/>
+			<item value="oWins"/>
+			<item value="O"/>
+			<item value="Cat3"/>
+			<item value="Dog2"/>
+			<item value="Animal3"/>
+			<item value="Animal_3"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="314"/>
+		<item key="DIALOG_Y_ORIGIN" value="124"/>
+		<item key="DIALOG_WIDTH" value="284"/>
+		<item key="DIALOG_HEIGHT" value="390"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

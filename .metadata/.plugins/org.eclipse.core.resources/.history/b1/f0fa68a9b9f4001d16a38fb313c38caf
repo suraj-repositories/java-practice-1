@@ -1,0 +1,18 @@
+package Data_Structures_BroCodes;
+
+public class DS_11_BubbleSort {
+	
+			// bubble sort : pairs of adjacent elements are compared , and the elements 
+			//				 swapped if they are not in order.
+
+			//			Quadratic Time O(n^2)
+			//			small data set = okay-ish
+			// 			large data set = Bad 
+			
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

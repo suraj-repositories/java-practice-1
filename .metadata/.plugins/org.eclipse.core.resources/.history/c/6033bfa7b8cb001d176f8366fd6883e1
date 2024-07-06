@@ -1,0 +1,22 @@
+package company_package;
+
+
+public class java_difference_public_sratic {
+	public void publicMethod() {
+		System.out.println("THIS IS A PUBLIC METHOD..........it need to make object ");
+		
+	}
+	static void staticMethod() {
+		System.out.println("THIS IS A STATIC METHOD.........it does not need to make an object");
+	}
+	
+	
+	public static void main(String[] args) { 				 //  main method
+		// for public 
+		java_difference_public_sratic myObj=new java_difference_public_sratic();
+		myObj.publicMethod();
+		
+		// for static
+		staticMethod();
+	}
+}

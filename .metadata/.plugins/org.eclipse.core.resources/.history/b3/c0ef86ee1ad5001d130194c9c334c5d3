@@ -1,0 +1,25 @@
+package company_package;
+import java.util.Calendar;
+import java.util.TimeZone;
+
+public class Java_Practice_Calendar_Class {
+	public static void main(String[] args) {
+		System.out.println("---CALENDAR CLASS---");
+		
+		
+		
+		 Calendar c1= Calendar.getInstance();				// calendar is a abstract class
+		
+		 System.out.println(c1.getCalendarType());
+		 System.out.println(c1.getTimeZone());
+		 System.out.println(c1.getTimeZone().getDisplayName());
+		 System.out.println(c1.getTimeZone().getID());
+		
+		 // we can change the time zone
+		 Calendar c2 = Calendar.getInstance(TimeZone.getTimeZone("Asia/Singapore"));
+		 
+		 System.out.println(c2.getCalendarType());
+		 System.out.println(c2.getTimeZone());
+		 System.out.println(c2.getTimeZone().getDisplayName());
+	}
+}

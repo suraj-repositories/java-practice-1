@@ -1,0 +1,60 @@
+package Bro_codes_java_reloaded;
+
+import java.awt.BasicStroke;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+class GraphicsDemo extends JFrame {
+
+	MyPanel panel;
+	GraphicsDemo(){
+		
+		panel = new MyPanel();
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		this.add(panel);
+		this.pack();
+		this.setLocationRelativeTo(null);		// this is responsible to open frame in the center of the screen
+		this.setVisible(true);
+		
+	}
+}
+
+class MyPanel extends JPanel {
+	
+	MyPanel(){
+		this.setPreferredSize(new Dimension(500,500));
+	}
+	public void paint(Graphics g) {
+		
+		Graphics2D g2D = (Graphics2D) g;		// it is an advance version of graphic g
+		
+		g2D.setPaint(Color.blue);
+		g2D.setStroke(new BasicStroke(5));
+//		g2D.drawLine(0, 0, 500, 500);
+		
+		g2D.setPaint(Color.yellow);
+//		g2D.drawRect(0, 0, 100, 200);
+//		g2D.fillRect(0, 0, 100, 200);
+		
+		g2D.setPaint(Color.orange);
+		g2D.drawOval(0, 0, 100, 100);
+//		g2D.fillOval(0, 0, 100, 200);
+		
+		
+	}
+	
+}
+
+public class Sh_50_2D_Graphics {
+	public static void main(String[] args) {
+	
+		GraphicsDemo myObj = new GraphicsDemo();
+	}
+
+}

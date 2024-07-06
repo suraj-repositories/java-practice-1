@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;HungrySnake/src/main&apos;&#x0D;&#x0A;- Original project: &apos;Practice_java_Bro_Codes&apos;&#x0D;&#x0A;- Destination element: &apos;HungrySnake/src/main&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Sh_80_Snake_Game.SnakeGame.java&#x0D;&#x0A;     Sh_80_Snake_Game.GamePanel.java&#x0D;&#x0A;     Sh_80_Snake_Game.GameFrame.java" description="Copy compilation units" destination="=HungrySnake/src&lt;main" element1="/src&lt;Sh_80_Snake_Game{SnakeGame.java" element2="/src&lt;Sh_80_Snake_Game{GamePanel.java" element3="/src&lt;Sh_80_Snake_Game{GameFrame.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1686411257700" units="3" version="1.0"/>
+</session>

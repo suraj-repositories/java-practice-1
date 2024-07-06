@@ -1,0 +1,45 @@
+package first;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
+
+public class FileMenu extends MenuBar implements ActionListener {
+
+	JMenu fileMenu;
+	
+	FileMenu(){
+		
+		fileMenu = new JMenu("File");
+		
+		//-------------OPEN ITEM
+		openItem = new JMenuItem("Open");
+		openItem.addActionListener(this);
+		
+	//-------------SAVE ITEM
+		saveItem = new JMenuItem("Save");
+		openItem.addActionListener(this);
+		
+	//-------------EDIT ITEM
+		exitItem = new JMenuItem("Exit");
+		openItem.addActionListener(this);
+		
+		
+		
+		fileMenu.add(openItem);
+		fileMenu.add(saveItem);
+		fileMenu.add(exitItem);
+		
+		MenuBar menuBar = new MenuBar();
+		menuBar.menuBar.add(fileMenu);
+//		this.menuBar.add(fileMenu);
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;packageProjects_and_games.Main&apos; to &apos;Factorial_Of_Given_Number&apos;&#x0D;&#x0A;- Original project: &apos;workingProjects_and_games&apos;&#x0D;&#x0A;- Original element: &apos;packageProjects_and_games.Main&apos;&#x0D;&#x0A;- Renamed element: &apos;packageProjects_and_games.Factorial_Of_Given_Number&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;packageProjects_and_games{Main.java[Main" matchStrategy="1" name="Factorial_Of_Given_Number" qualified="false" references="true" similarDeclarations="false" stamp="1680877522727" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,33 @@
+package test_somethig_pack;
+import java.util.Scanner;
+class Library{
+	public int [] book;
+	public int userChoice;
+		
+	public Library() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("---HELLO THIS IS VERTUAL LIBRARY---");
+		System.out.format("1.Check available books\n2.Borrow book\n3.Return book\n");
+		userChoice=sc.nextInt();
+		switch(userChoice) {
+		case 1:
+			break;
+		case 2:
+			break;
+		case 3:
+			break;
+		default:System.out.println("PLEASE ENTER A VALID CHOICE....!");
+		}
+	}
+	
+	
+//	public void 
+}
+public class test_library {
+
+	public static void main(String[] args) {
+		
+		Library lib=new Library();
+		
+	}
+}

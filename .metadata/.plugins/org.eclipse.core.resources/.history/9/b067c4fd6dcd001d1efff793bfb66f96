@@ -1,0 +1,11 @@
+package test_somethig_package;
+
+public class String_practice {
+	
+	static String a="shubham kumar";
+	public static void main(String[] args) {
+		
+		System.out.println(a);
+		
+	}
+}

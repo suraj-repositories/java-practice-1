@@ -1,0 +1,18 @@
+package Bro_codes_java_reloaded;
+
+import javax.swing.JFrame;
+
+class KeyBindDemo extends JFrame{
+	
+	KeyBindDemo(){
+		
+	}
+}
+
+public class Sh_49_KeyBindings {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

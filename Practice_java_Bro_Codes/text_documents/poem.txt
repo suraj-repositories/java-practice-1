@@ -1,0 +1,4 @@
+This is a poem written by poet.
+Roses are red.
+Grapes are green.
+This is append method.

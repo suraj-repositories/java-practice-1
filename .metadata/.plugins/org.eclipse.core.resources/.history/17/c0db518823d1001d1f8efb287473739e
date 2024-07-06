@@ -1,0 +1,16 @@
+package company_package;
+
+public class Java_Practice_Exception_throw_throws {
+	
+	public static int devide(int num1 ,int num2) throws ArithmeticException{
+		
+		int devide = num1 / num2 ;
+		return devide;
+	}
+	public static void main(String[] args) {
+		
+		int d=devide(3,0);
+		System.out.println(d);
+		
+	}
+}

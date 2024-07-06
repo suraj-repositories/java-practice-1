@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;packageProjects_and_games&apos; to &apos;GuessNumber&apos;&#x0D;&#x0A;- Original project: &apos;Working_Projects&apos;&#x0D;&#x0A;- Original element: &apos;Working_Projects/src/packageProjects_and_games&apos;&#x0D;&#x0A;- Renamed element: &apos;Working_Projects/src/GuessNumber&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;packageProjects_and_games&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;packageProjects_and_games" name="GuessNumber" qualified="false" references="true" stamp="1682414185346" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+package Bro_codes_java_reloaded;
+
+import javax.swing.JFrame;
+
+class KeyBindDemo extends JFrame{
+	
+	KeyBindDemo(){
+		
+	}
+}
+
+public class Sh_49_KeyBindings {
+	public static void main(String[] args) {
+		
+		// Key Bindings = bind an Action to a KeyStoke
+		//				don't require you to click a component to give it focus
+		//				all Swing components  use Key bindings
+		//				increased flexibility compared to keyListeners
+		//				can assign key stroke to individual Swing components
+		//				more difficult to utilize and set up .
+
+	}
+
+}

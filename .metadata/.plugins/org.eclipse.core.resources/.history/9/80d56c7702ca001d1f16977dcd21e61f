@@ -1,0 +1,17 @@
+package test_somethig_pack;
+
+class Library{
+	public int [] books= {34,8,56,65,6,5,5,66,56,56,56,565,5,6};
+	public int size=books.length;
+//	pubic int void numOfBooks() {
+//		return total;
+//	}
+}
+public class test_library {
+
+	public static void main(String[] args) {
+		
+		Library lib=new Library();
+		System.out.println(lib.size);
+	}
+}

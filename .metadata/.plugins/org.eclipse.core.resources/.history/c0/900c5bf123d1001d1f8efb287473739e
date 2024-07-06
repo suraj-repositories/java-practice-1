@@ -1,0 +1,22 @@
+package company_package;
+
+public class Java_Practice_Exception_throw_throws {
+	
+	// it may throw arithmetic exception to handle this you need to surround your code in try-catch block
+	public static int devide(int num1 ,int num2) throws ArithmeticException{
+		int devide = num1 / num2 ;
+		return devide;
+	}
+	public static void main(String[] args) {
+
+		try {
+			int d=devide(3,0);
+			System.out.println(d);
+		}
+		catch(Exception e) {
+			System.out.println("devided by 0 ");
+			System.out.println("this is an exception");
+		}
+		
+	}
+}

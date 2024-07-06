@@ -1,0 +1,68 @@
+package Bro_codes_java_reloaded;
+
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+
+class MenuBarDemo extends JFrame implements ActionListener{
+	JMenuBar menuBar ;
+	JMenu fileMenu;
+	JMenu editMenu;
+	JMenu helpMenu ;
+	
+	JMenuItem loadItem ;
+	JMenuItem saveItem;
+	JMenuItem exitItem ;
+	
+	MenuBarDemo(){
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setSize(500,500);
+		this.setLayout(new FlowLayout());
+		
+		menuBar = new JMenuBar();         // creating menu
+		fileMenu = new JMenu("File");			// creating menuBar Menus 
+		editMenu = new JMenu("Edit");
+		helpMenu = new JMenu("Help");
+		
+		loadItem = new JMenuItem("Load");			// creating items for fileMenu -- seperately create them and then add in to the file menu
+		saveItem = new JMenuItem("Save");
+		exitItem = new JMenuItem("Exit");
+		
+		loadItem.addActionListener(this);			// adding action lisetner to detect the action 
+		saveItem.addActionListener(this);
+		saveItem.addActionListener(this);
+		
+		fileMenu.add(loadItem);			// adding items in the file menu 
+		fileMenu.add(saveItem);
+		fileMenu.add(exitItem);
+		
+		menuBar.add(fileMenu);		// adding menus in the menubar
+		menuBar.add(editMenu);
+		menuBar.add(helpMenu);
+		
+		this.setJMenuBar(menuBar);
+		this.setVisible(true);
+		
+	}
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+		if(e.getSource()==loadItem) {
+			System.out.println(" you are clicked on the load ");
+		}
+		
+	}
+	
+}
+
+public class Sh_43_MenuBar {
+	public static void main(String[] args) {
+		
+		new MenuBarDemo();
+	}
+}

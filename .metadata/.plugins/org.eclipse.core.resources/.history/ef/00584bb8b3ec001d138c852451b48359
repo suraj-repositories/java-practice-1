@@ -1,0 +1,51 @@
+package first;
+
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+
+public class MenuBar extends Frame {
+	
+	JMenuBar menuBar;
+	
+	JMenu fileMenu;
+	JMenu editMenu;
+	JMenu helpMenu;
+	
+	JMenuItem openItem;
+	JMenuItem saveItem;
+	JMenuItem exitItem;
+	
+	MenuBar(){
+		menuBar = new JMenuBar();
+		
+		//--------------MENU'S----
+			fileMenu = new JMenu("File");
+			editMenu = new JMenu("Exit");
+			helpMenu = new JMenu("Help");
+			
+		//-------------OPEN ITEM
+			openItem = new JMenuItem("Open");
+			openItem.addActionListener(this);
+			
+		//-------------SAVE ITEM
+			saveItem = new JMenuItem("Save");
+			openItem.addActionListener(this);
+			
+		//-------------EDIT ITEM
+			exitItem = new JMenuItem("Exit");
+			openItem.addActionListener(this);
+			
+			
+			
+			fileMenu.add(openItem);
+			fileMenu.add(saveItem);
+			fileMenu.add(exitItem);
+			
+			menuBar.add(fileMenu);
+			menuBar.add(editMenu);
+			menuBar.add(helpMenu);
+			
+			this.setJMenuBar(menuBar);
+	}
+}

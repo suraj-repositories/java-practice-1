@@ -1,0 +1,34 @@
+package company_package;
+import java.util.Scanner;
+
+class MyException extends Exception{
+	@Override
+	public String toString() {
+		return super.toString()+" i am a toString()";
+	}
+	
+	@Override
+	public String getMessage() {
+		return super.getMessage()+"i am a getMessage()";
+	}
+	
+}
+
+public class Java_Practice_Exception_Class {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ENTER NUMBER : ");
+		int num = sc.nextInt();
+		if(num<100) {
+			try {
+				throw new MyException();
+			}
+			catch(Exception e) {
+				System.out.println("AN ERROR OCCURRED !");
+				System.out.println(e);
+			}
+			System.out.println("you can continue with the program ");
+		}
+	}
+}

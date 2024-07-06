@@ -1,0 +1,25 @@
+// here we calculate factorial using recursion
+
+import java.util.Scanner;
+
+public class Factorial_Recursion {
+
+	static long factorial(long num) {
+		if(num == 0 || num == 1) {
+			return 1;
+		}
+		return num*factorial(num-1);
+	}
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter Number : ");
+		long userInput = sc.nextLong();
+		
+		long answer = factorial(userInput);
+		
+		System.out.println("Factorial of "+userInput+" is "+answer);
+	}
+}

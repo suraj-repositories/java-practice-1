@@ -1,0 +1,25 @@
+package Bro_codes_java_reloaded;
+
+import javax.swing.JFrame;
+
+class GraphicsDemo extends JFrame {
+
+	
+	GraphicsDemo(){
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setSize(500,500);
+		this.setLocationRelativeTo(null);
+		this.setVisible(true);
+		
+		
+	}
+}
+
+public class Sh_50_2D_Graphics {
+	public static void main(String[] args) {
+	
+		GraphicsDemo myObj = new GraphicsDemo();
+	}
+
+}

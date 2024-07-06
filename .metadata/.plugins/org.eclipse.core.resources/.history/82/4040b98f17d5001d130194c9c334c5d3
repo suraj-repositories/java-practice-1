@@ -1,0 +1,14 @@
+package company_package;
+import java.util.Calendar;
+
+public class Java_Practice_Calendar_Class {
+	public static void main(String[] args) {
+		System.out.println("---CALENDAR CLASS---");
+		
+		 Calendar c1= Calendar.getInstance();				// calendar is a abstract class
+		
+		 System.out.println(c1.getCalendarType());
+		 System.out.println(c1.getTimeZone());
+		
+	}
+}

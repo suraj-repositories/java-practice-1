@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Data_Structures_BroCodes.DS_18_Graph&apos; to &apos;DS_18_Graph_AdjacencyMatrix&apos;&#x0D;&#x0A;- Original project: &apos;Practice_java_Bro_Codes&apos;&#x0D;&#x0A;- Original element: &apos;Data_Structures_BroCodes.DS_18_Graph&apos;&#x0D;&#x0A;- Renamed element: &apos;Data_Structures_BroCodes.DS_18_Graph_AdjacencyMatrix&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DS_18_Graph&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Data_Structures_BroCodes{DS_18_Graph.java[DS_18_Graph" matchStrategy="1" name="DS_18_Graph_AdjacencyMatrix" qualified="false" references="true" similarDeclarations="false" stamp="1685200407250" textual="false" version="1.0"/>
+</session>

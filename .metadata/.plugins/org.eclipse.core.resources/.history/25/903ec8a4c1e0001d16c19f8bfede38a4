@@ -1,0 +1,23 @@
+
+class Car{
+	
+	int modelYear ;
+	String modelName ;
+
+	 Car(int year,String name){
+		 this.modelName=name;
+		 this.modelYear=year;
+	}
+}
+
+public class Constructors_In_Java {
+
+	public static void main(String[] args) {
+		
+		Car myCar = new Car(2021,"suzuki");
+		
+		System.out.println("Model Name :"+myCar.modelName);
+		System.out.println("Model Year :"+myCar.modelYear);
+	}
+	
+}

@@ -1,0 +1,17 @@
+package Bro_codes_java_reloaded;
+
+class GraphicsDemo {
+
+	
+	GraphicsDemo(){
+		
+	}
+}
+
+public class Sh_50_2D_Graphics {
+	public static void main(String[] args) {
+	
+		GraphicsDemo myObj = new GraphicsDemo();
+	}
+
+}

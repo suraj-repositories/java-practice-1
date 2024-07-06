@@ -1,0 +1,37 @@
+package company_package;
+
+interface Animal2{				// interface class are default abstract
+	void sleep();				// all methods are also abstract
+	void voice();				// does not have an constructor
+}
+
+interface RunAnimal{			// creating another interface 
+	void animalRun();
+}
+class Pig2 implements Animal2 , RunAnimal { 	//here we definer more than one interface
+
+	// here it is must to use implement all methods of interfaces 
+	
+	public void sleep() {
+		System.out.println("Zzzzzz");
+	}
+	public void voice() {
+		System.out.println("this is bzz bzz");
+	}
+	
+	public void animalRun() {
+		System.out.println("running");
+	}
+	
+	// and you can also add extra methods here
+}
+public class java_practice_interfaces {
+	public static void main(String[] args) {
+		
+		
+		// creating an object with the name of child class 
+		Pig2 p=new Pig2();			// we can not use interface to create object
+		p.sleep();
+		p.voice();
+	}
+}

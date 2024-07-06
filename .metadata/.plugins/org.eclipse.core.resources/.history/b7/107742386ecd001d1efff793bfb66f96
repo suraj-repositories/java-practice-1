@@ -1,0 +1,14 @@
+package test_somethig_package;
+import java.util.Scanner;
+
+public class String_practice {
+	
+	static String[] a;
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ENTER ANY STRING :  ");
+		a[0]=sc.next();
+		System.out.println(a[0]);
+		
+	}
+}

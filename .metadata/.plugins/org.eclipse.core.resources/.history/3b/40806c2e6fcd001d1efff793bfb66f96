@@ -1,0 +1,16 @@
+package test_somethig_package;
+import java.util.Scanner;
+
+public class String_practice {
+	
+	static int[] a= {454,34,34,3,2};
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ENTER ANY STRING :  ");
+		a[5]=sc.nextInt();
+		
+		
+		System.out.println(a[5]);
+		
+	}
+}

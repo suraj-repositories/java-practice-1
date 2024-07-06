@@ -1,0 +1,18 @@
+package Bro_codes_java_reloaded;
+
+import javax.swing.JFrame;
+
+public class Sh_26_JFrame_GUI {
+	public static void main(String[] args) {
+		
+		// JFrame : a GUI window to add components to
+		
+		JFrame frame = new JFrame();		// create a frame
+		
+		frame.setSize(420,420);		// set the x-dimension, and y-dimension of frame
+		frame.setVisible(true);		// make frame visible
+		
+		
+		
+	}
+}

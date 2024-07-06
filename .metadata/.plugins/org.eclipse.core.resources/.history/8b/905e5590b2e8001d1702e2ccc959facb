@@ -1,0 +1,58 @@
+package Bro_codes_java_reloaded;
+
+import java.awt.event.ActionEvent;
+
+import javax.swing.AbstractAction;
+import javax.swing.JFrame;
+
+class KeyBindDemo extends JFrame{
+	
+	KeyBindDemo(){
+		
+	}
+	
+	public class UpAction extends AbstractAction{
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+	}
+	public class DownAction extends AbstractAction{
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+	}
+	
+	public class RightAction extends AbstractAction{
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+	}
+	public class LeftAction extends AbstractAction{
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+	}
+}
+
+public class Sh_49_KeyBindings {
+	public static void main(String[] args) {
+		
+		// Key Bindings = bind an Action to a KeyStoke
+		//				don't require you to click a component to give it focus
+		//				all Swing components  use Key bindings
+		//				increased flexibility compared to keyListeners
+		//				can assign key stroke to individual Swing components
+		//				more difficult to utilize and set up .
+			
+		KeyBindDemo myObj = new KeyBindDemo();
+	}
+
+}

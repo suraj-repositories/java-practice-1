@@ -1,0 +1,52 @@
+
+package company_package;
+class NewEmployee{
+	private int id ;
+    private	String name;
+    
+    public NewEmployee() {								// CONSTRUCTOR 
+    	id=243;
+    	name="Shubham kumar";
+    }
+    
+    public NewEmployee( String myname) {				// CONSTRUCTOR overloading
+    	id=243;
+    	name=myname;
+    }
+    public NewEmployee( String myname,int myid) {		// CONSTRUCTOR overloading
+    	id=myid;
+    	name=myname;
+    }
+    
+    
+
+    public void setName(String n) {			// SETTER
+    	name = n;
+    }
+    public String getName() {				// GETTER
+    	return name;
+    }
+    public void setId(int n ) {				// SETTER
+    	id = n;
+    }
+    public int getId() {					// GETTER
+    	return id;
+    }
+
+}
+public class java_Constructors {
+
+	public static void main(String[] args) {
+		
+		
+//		NewEmployee worker=new NewEmployee();
+//		NewEmployee worker=new NewEmployee( "given_name_is_printing");
+		NewEmployee worker=new NewEmployee( "given_name_is_printing",8545);
+		
+//		worker.setName("Shubham_kumar_maurya");
+//		worker.setId(4234);
+
+		System.out.println(worker.getId());
+		System.out.println(worker.getName());
+	}
+}

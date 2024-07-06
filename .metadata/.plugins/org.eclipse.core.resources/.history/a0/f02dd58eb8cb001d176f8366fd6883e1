@@ -1,0 +1,61 @@
+
+
+package company_package;
+
+//parent class
+abstract class aniMals{
+	// constructor
+	 aniMals(){
+		System.out.println("this is a animal class constructor");
+	}
+	 aniMals(int x){
+			System.out.println("argument animal class constructor ");
+			System.out.println(x);
+		}
+	 public void janvar() {
+		 System.out.println("this is a janvar method");
+	 }
+	 abstract void anyAnimal();
+}
+
+//child class 
+class dogs extends aniMals{
+	// constructor with super keyword argument
+	dogs(){
+		super(34);
+		System.out.println("this is dog class constructor ");
+	}
+	public void eat() {
+		System.out.println("the dog eating the food ");
+	}
+	//this is an abstract method
+public void anyAnimal() {
+		System.out.println("this is a abstract method.....");
+	}
+}
+//grand child class
+class bullDog extends dogs{
+	// constructor
+	bullDog(){
+		System.out.println("this is a bulldog class constructor");
+	}
+	
+	public void bullMethod() {
+		System.out.println("this is method of bulldog class ");
+	}
+}
+public class java_practice_super_keyword{
+	public static void main(String[] args) {
+		
+//		dogs a=new dogs();
+//		a.anyAnimal();
+//		System.out.println("");
+//		a.janvar();
+//		a.eat();
+		
+		bullDog b=new bullDog();
+		b.bullMethod();
+		
+	
+	}
+}

@@ -1,0 +1,18 @@
+package Start_Advance;
+
+public class Ad_12_StringHandling {
+	public static void main(String[] args) {
+		
+		String str1 = "John is studing ";
+		String str2 = "In college";
+		
+		System.out.println(str1.length());
+
+		String result = str1.concat(str2);
+		System.out.println(result);
+		
+		String r = String.format("The name of student is "+"%s , and the age is %d. ", "Shubham", 21);
+		System.out.println(r);
+	}
+
+}
