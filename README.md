@@ -14,5 +14,5 @@ My Java practices, data structure and few mini projects
 <br />
 
 <div align="center">
-<p>I need to review my programs for a quick revision.</p>
+<p>🔋 I need to review my programs for a quick revision.</p>
 </div>
